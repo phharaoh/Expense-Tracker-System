@@ -1,4 +1,7 @@
 import 'dart:io';
+import 'add_expense.dart';
+import 'view_expense.dart';
+
 // ignore_for_file: avoid_print
 
 void displayMenu() {
@@ -22,11 +25,10 @@ void run() {
 
       switch (choice) {
         case 1:
-          //TODO:
+          addExpense();
           break;
         case 2:
-          //TODO:
-
+         viewExpenses();
           break;
 
         case 3:
