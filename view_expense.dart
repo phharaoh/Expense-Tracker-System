@@ -1,5 +1,4 @@
 import 'add_expense.dart';
-// ignore_for_file: avoid_print
 
 void viewExpenses() {
   print('=== My Expenses ===');
@@ -9,7 +8,7 @@ void viewExpenses() {
     for (int i = 0; i < expenses.length; i++) {
       final e = expenses[i];
       print(
-          '${i + 1}. ${e['date']} | ${e['category']} | ${e['description']} - \$${e['amount'].toStringAsFixed(2)}');
+          '\n ${e['date']} \n ${e['category']} \n ${e['description']} \n \$${e['amount'].toStringAsFixed(2)}');
     }
   }
 }

@@ -1,12 +1,11 @@
 import 'dart:io';
-// ignore_for_file: avoid_print
 
 
 
 List<Map<String, dynamic>> expenses = [];
 
 void addExpense() {
-  print('\n=== Add New Expense ===');
+  print('\n=== Add Expense ===');
 
   stdout.write('Enter description: ');
   String? description = stdin.readLineSync() ?? '';
